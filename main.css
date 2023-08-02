@@ -46,13 +46,15 @@ article {
 
 .grid-ex-1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, minmax(300px, 1fr));
+    gap: 2em;
 }
 
 /* STEP TWO - uncomment out the remaining articles in .grid-ex-1. What do you notice?  Are these articles part of the explicit grid or implicit grid? */
 
 /* These elements are part of the explicit grid. This is becuse each of the grid spots are filled with divs
-    and not placed outside of the explicitly defined grid area. There is also no grid-auto properties set.
+    and not placed outside of the explicitly defined grid area. There is also no grid-auto type properties set.
  */
 
 
