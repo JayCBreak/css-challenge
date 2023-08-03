@@ -54,6 +54,7 @@ article {
 
 /* These elements are part of the explicit grid. This is becuse each of the grid spots are filled with divs
     and not placed outside of the explicitly defined grid area. There is also no grid-auto type properties set.
+    AKA the items are placed in predefined cells.
  */
 
 
